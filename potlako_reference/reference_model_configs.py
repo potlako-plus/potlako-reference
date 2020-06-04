@@ -5,7 +5,10 @@ site_reference_configs.register_from_visit_schedule(
         'edc_appointment.appointment': ['potlako_subject.subjectvisit']})
 
 configs = {
-    'potlako_subject.patientcallinitial': ['patient_symptoms'],
+    'potlako_subject.cliniciancallfollowup': ['transport_support', 'investigation_ordered'],
+    'potlako_subject.patientcallinitial': ['transport_support'],
+    'potlako_subject.patientcallfollowup': ['transport_support', 'investigation_ordered'],
+    'potlako_subject.missedvisit': ['transport_support'],
 }
 
 for reference_name, fields in configs.items():
