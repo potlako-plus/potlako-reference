@@ -6,8 +6,10 @@ site_reference_configs.register_from_visit_schedule(
 
 configs = {
     'potlako_subject.cliniciancallfollowup': ['transport_support', 'investigation_ordered'],
-    'potlako_subject.patientcallinitial': ['transport_support'],
-    'potlako_subject.patientcallfollowup': ['transport_support', 'investigation_ordered'],
+    'potlako_subject.patientcallinitial': ['transport_support',
+                                           'medical_conditions'],
+    'potlako_subject.patientcallfollowup': ['transport_support',
+                                            'investigation_ordered'],
     'potlako_subject.missedvisit': ['transport_support']
 }
 
