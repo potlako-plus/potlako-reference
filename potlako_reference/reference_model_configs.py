@@ -9,7 +9,7 @@ configs = {
                                            'medical_conditions',
                                            'tests_ordered'],
     'potlako_subject.patientcallfollowup': ['transport_support',
-                                            'investigation_ordered'],
+                                            'investigations_ordered'],
     'potlako_subject.missedvisit': ['transport_support']
 }
 
