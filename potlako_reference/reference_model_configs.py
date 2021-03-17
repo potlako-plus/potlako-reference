@@ -11,7 +11,7 @@ configs = {
     'potlako_subject.patientcallfollowup': ['transport_support',
                                             'investigations_ordered'],
     'potlako_subject.missedvisit': ['transport_support'],
-    
+    'potlako_subject.missedcall': ['id'],
 }
 
 for reference_name, fields in configs.items():
